@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        /* Header */
+        .header {
+            background-color: #2874f0;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+        }
+        .header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .header .grocery {
+            background-color: #ffd700;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: black;
+            font-weight: bold;
+        }
+        /* Search Bar */
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+        .search-bar input {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+        .search-bar button {
+            padding: 10px 15px;
+            border: none;
+            background-color: #2874f0;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+        /* Categories */
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .categories .category {
+            text-align: center;
+            margin: 10px;
+            width: 70px;
+            font-size: 0.9rem;
+        }
+        .categories .category img {
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+        }
+        /* Banner Section */
+        .banner {
+            margin: 20px;
+            text-align: center;
+        }
+        .banner img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        /* Navigation Bar */
+        .navbar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color:blue;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+        }
+        .navbar .nav-item {
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        .navbar .nav-item img {
+            width: 25px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">My Shop</div>
+        <div class="grocery">Grocery</div>
+    </div>
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <input type="text" placeholder="Search for products, brands, and more">
+        <button>Search</button>
+    </div>
+    <!-- Banner -->
+    <div class="banner">
+        <img src="https://via.placeholder.com/1000x300" alt="Banner">
+    </div>
+    <!-- Categories -->
+    <div class="categories">
+        <div class="category">
+            <img src="https://via.placeholder.com/70" alt="Category">
+            <p>Mobiles</p>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/70" alt="Category">
+            <p>Beauty</p>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/70" alt="Category">
+            <p>Gadgets</p>
+        </div>
+        <div class="category">
+            <img src="https://via.placeholder.com/70" alt="Category">
+            <p>Home</p>
+        </div>
+    </div>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="nav-item">
+            <img src="https://via.placeholder.com/25" alt="Home">
+            <p>Home</p>
+        </div>
+        <div class="nav-item">
+            <img src="https://via.placeholder.com/25" alt="Categories">
+            <p>Categories</p>
+        </div>
+        <div class="nav-item">
+            <img src="https://via.placeholder.com/25" alt="Cart">
+            <p>Cart</p>
+        </div>
+        <div class="nav-item">
+            <img src="https://via.placeholder.com/25" alt="Account">
+            <p>Account</p>
+        </div>
+    </div>
+</body>
+</html>
